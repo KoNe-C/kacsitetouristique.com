@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Réservation d'hôtel - BANFORA</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Réservation d'hôtel - BANFORA</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="patrimoine.html">Patrimoine</a>
+        <a href="reservation.html">Réservation d'hôtel</a>
+        <a href="galeries.html">Galerie</a>
+        <a href="infos.html">Informations</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Voici les hôtels disponibles que nous vous offrons</h2>
+        <div class="container">
+            <div class="text">
+                <h1>HÔTEL CASCADES PALACE</h1>
+                <p>Vous êtes à la recherche d'une gamme de services conçus pour sublimer votre séjour à Banfora ? Alors le Cascades Palace vous apportera entière satisfaction.
+
+                    Le Cascades Palace est un petit hôtel proposant des chambres équipées d'un réfrigérateur et d'une climatisation. Vous pouvez également compter sur un wi-fi gratuit pour rester connecté tout au long de votre séjour.
+                    
+                    Le salon n'est pas étranger à sa grande popularité auprès des voyageurs visitant Banfora.
+                    
+                    Mais surtout, le Cascades Palace permet de profiter facilement de plusieurs attractions incontournables de Banfora telle que Karfiguela Falls, qui est une cascade très populaire.
+                    
+                    Profitez bien de votre séjour à Banfora ! 
+            <img src="palace.jpg" alt="Photo 1" style="width:100%;max-width:500px;">
+            <h1>HÔTEL plaza</h1> 
+        <img src="palace.jpg" alt="Photo 1" style="width:100%;max-width:500px;">
+        <h1>HÔTEL CALYPSO</h1> 
+        <img src="calyspo.jpg" alt="Photo 1" style="width:100%;max-width:500px;">
+        <h1>HÔTEL CANNE A SUCRE</h1> 
+        <img src="canne.jpg" alt="Photo 1" style="width:100%;max-width:500px;">
+        </p>
+        </div>
+    </div>
+   
+        <h2>Réserver une chambre</h2>
+        <form id="reservationForm">
+       <div>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+                <div>
+                <label for="checkin">Date d'arrivée:</label>
+                <input type="date" id="checkin" name="checkin" required>
+            </div>
+                <div>
+                <label for="checkout">Date de départ:</label>
+                <input type="date" id="checkout" name="checkout" required>
+            </div>
+                <div>
+                    <label="hotel">Hôtel préféré:</label>
+                    <select id="hotel" name="hotel" required>
+                        <option value="">Sélectionnez un hôtel</option>
+                        <option value="Hotel1">Hôtel CASCADES PALACE </option>
+                        <option value="Hotel2">Hôtel plaza</option>
+                        <option value="Hotel3">Hôtel CALYPSO</option>
+                        <option value="Hotel3">Hôtel CANNE A SUCRE </option>
+                    </select><br>
+                <input type="submit" value="Réserver">
+                </div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
